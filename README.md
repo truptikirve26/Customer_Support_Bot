@@ -14,3 +14,30 @@ Extendable to use multiple pdfs, feedback data or databases
 
 ## tech Stack
 LLMchaining and Retrieval
+LLM and embeddings
+FAISS - vector store for document retrieval
+Streamlit - Frontend chatbot interface
+Pypdf - document loading
+dotenv - Environment variable management
+
+
+
+# how to Run
+Install dependencies
+pip install -r requirements.txt
+
+
+Add your OPENAI API key
+
+Create a .env file in your root directory
+OPENAI_API_KEY = xxxx-xx-xxx
+
+
+Add a PDF to data/ directory
+Use the sample refund_policy.pdf or use your own
+
+
+Run the app
+streamlit run app/main.py
+
+
