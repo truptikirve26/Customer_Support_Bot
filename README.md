@@ -12,7 +12,7 @@ Inspired by a real world usecase I worked on, this version uses synthetic docume
 - Easy API managemnet with .env support
 Extendable to use multiple pdfs, feedback data or databases
 
-## tech Stack
+## Tech Stack
 - **LangChain**: LLMchaining and Retrieval
 - **OpenAI**: LLM and embeddings
 - **FAISS**: - vector store for document retrieval
@@ -48,5 +48,5 @@ The architecture closely reflects what we used internally:
 - Language model orchestration with LangChain
 
 
-All data in the repository are synthetic and for demo purpose pnly
+All data in the repository are synthetic and for demo purpose only
 
