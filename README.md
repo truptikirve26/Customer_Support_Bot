@@ -6,19 +6,19 @@ Inspired by a real world usecase I worked on, this version uses synthetic docume
 
 ## Features
 
-** Document aware Q&A** over internal policies
-** RAG pipeline ** using LangChain, OpenAIEmbeddings, FAISS 
-** COnversational Interface ** using Streamlit
-Easy API managemnet with .env support
+- **Document aware Q&A** over internal policies
+- **RAG pipeline** using LangChain, OpenAIEmbeddings, FAISS 
+- **COnversational Interface** using Streamlit
+- Easy API managemnet with .env support
 Extendable to use multiple pdfs, feedback data or databases
 
-## tech Stack
-LLMchaining and Retrieval
-LLM and embeddings
-FAISS - vector store for document retrieval
-Streamlit - Frontend chatbot interface
-Pypdf - document loading
-dotenv - Environment variable management
+## Tech Stack
+- **LangChain**: LLMchaining and Retrieval
+- **OpenAI**: LLM and embeddings
+- **FAISS**: - vector store for document retrieval
+- **Streamlit** - Frontend chatbot interface
+- **Pypdf** - document loading
+- **dotenv** - Environment variable management
 
 
 
@@ -40,4 +40,13 @@ Use the sample refund_policy.pdf or use your own
 Run the app
 streamlit run app/main.py
 
+
+The project is a simplified, anonymized version of a support assistant that I helped build in a prodcution environment. 
+The architecture closely reflects what we used internally:
+- FAQ retrieval based on real support tickets
+- Policy based document responses
+- Language model orchestration with LangChain
+
+
+All data in the repository are synthetic and for demo purpose only
 
